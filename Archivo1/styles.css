@@ -1,0 +1,12 @@
+body{
+    background-color: beige;
+}
+
+p{
+    color: red;
+}
+
+#Encabezado{
+    width: max-content;
+    align-items: center;
+}
