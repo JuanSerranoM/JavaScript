@@ -1,10 +1,3 @@
-let nombre = prompt("dime tu nombre");
-
-alert("Hola " + nombre);
-
-let numero = 10;
-
-numero += 5;
-
-document.write(numero)
-document.write("<h1>Prueba de titulo</h1>")
+function RespuestaAutomatica(){
+    document.write("<h1>Prueba del primer boton con JavaScript en VisualStudio</h1>");
+}
