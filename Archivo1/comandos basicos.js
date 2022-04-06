@@ -7,13 +7,15 @@ function agregarTexto(){
     let div = document.getElementById("campoVacio");
     let nombre = prompt("Ingrese su nombre: ","Desconocido");
     const elementoP = document.createElement("p");
+    let texto;
 
     if(nombre == "Desconocido"){
-        elementoP.textContent = "No llenaste el espacio con tu nombre entonces te llamaremos " + nombre;
+        texto = "No llenaste el espacio con tu nombre entonces te llamaremos " + nombre;
     }else{
-        elementoP.textContent = "Hola " + nombre + ", gracias por decirnos tu nombre!"
+        texto = "Hola " + nombre + ", gracias por decirnos tu nombre!"
     }
 
+    elementoP.textContent = texto;
     div.appendChild(elementoP);
 
 }
