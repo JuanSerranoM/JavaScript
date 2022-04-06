@@ -10,6 +10,20 @@
             <p>Este texto debe estar debajo del titulo principal</p>
         </div>
         <div id="Cuerpo">
+            <input type="button" onclick="comenzarJuego()" value="Jugar">
+            <input type="button" onclick="resetJuego()" value="Reiniciar">
+            <br/>
+            <table id="tabla">
+                <tr class="filaEncabezado">
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Cosa</th>
+                    <th>Color</th>
+                    <th>Mundito</th>
+                    <th>Fruta o Verdura</th>
+                </tr>
+            </table>
+            <br/>
             <div id="campoVacio"></div>
             <input type="button" value="Boton de Prueba" onclick="respuestaAutomatica()">
             <input type="button" value="Boton de Texto" onclick="agregarTexto()">
