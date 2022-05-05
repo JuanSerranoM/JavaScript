@@ -6,9 +6,38 @@ body{
 p{
     color: red;
     text-align: center;
+    
 }
 
 #Encabezado{
     /*width: max-content;*/
     align-items: center;
+}
+
+footer{
+    background-color: bisque;
+}
+
+.lateralDerecho{
+    background-color: darkgray;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.lateralIzquierdo{
+    background-color: darksalmon;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+#fotoPerfil{
+    width: 450px;
+    height: 450px;
+}
+
+.listaInformacion li{
+    list-style-type: none;
+    color: rgb(87, 87, 255);
 }
